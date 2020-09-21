@@ -2,7 +2,6 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import { Link } from 'gatsby';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -17,11 +16,11 @@ const IndexPage = () => (
     <div id="main">
       <header className="major container medium">
         <h2>
-          We conduct experiments that
+          I've been collaborating with
           <br />
-          may or may not seriously
+          several companies since 2011
           <br />
-          break the universe
+          also I'm based in Mashhad, Iran
         </h2>
       </header>
 
@@ -31,11 +30,12 @@ const IndexPage = () => (
             <img src={pic1} alt="" />
           </a>
           <div className="content">
-            <h3>The First Thing</h3>
+            <h3>Jack of all trades</h3>
             <p>
-              Vitae natoque dictum etiam semper magnis enim feugiat amet
-              curabitur tempor orci penatibus. Tellus erat mauris ipsum
-              fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.
+              I'm an experienced Full-stack developer with more
+              than 8 years of experience in developing and
+              deploying corporate websites and web services
+              for government bodies and commercial organizations
             </p>
           </div>
         </section>
@@ -44,11 +44,10 @@ const IndexPage = () => (
             <img src={pic2} alt="" />
           </a>
           <div className="content">
-            <h3>The Second Thing</h3>
+            <h3>Top Skills</h3>
             <p>
-              Vitae natoque dictum etiam semper magnis enim feugiat amet
-              curabitur tempor orci penatibus. Tellus erat mauris ipsum
-              fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.
+              I've an strong proficiency in the back-end (ASP.NET Core / C#)
+              and the front-end (HTML5 / CSS3 / React.js / Redux / Bootstrap) development
             </p>
           </div>
         </section>
@@ -57,27 +56,26 @@ const IndexPage = () => (
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h3>The Third Thing</h3>
+            <h3>Other Abilities</h3>
             <p>
-              Vitae natoque dictum etiam semper magnis enim feugiat amet
-              curabitur tempor orci penatibus. Tellus erat mauris ipsum
-              fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.
+              I'm also a rookie and enthusiastic in the field of
+              Mobile application development using Java and Flutter
             </p>
           </div>
         </section>
       </div>
 
       <footer className="major container medium">
-        <h3>Get shady with this starter</h3>
+        <h3>Are you a talent hunter?</h3>
         <p>
-          There is also elements page in this template. Click below button to
-          check
+          I highly recommend you to get in touch with me if
+          you're looking for someone with mentioned skills &amp; abilities
         </p>
         <ul className="actions special">
           <li>
-            <Link to="/Elements" className="button">
-              View Elements
-            </Link>
+            <a href="mailto:m.sadegh.sh@gmail.com?subject=Hi there Mohammad" className="button">
+              Say Hi to Mohammad
+            </a>
           </li>
         </ul>
       </footer>

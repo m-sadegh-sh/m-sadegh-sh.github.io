@@ -1,5 +1,4 @@
 import React from 'react';
-import ContactForm from './ContactForm';
 import config from '../../config';
 export default function Footer() {
   return (
@@ -9,9 +8,11 @@ export default function Footer() {
           <h2>Questions or comments?</h2>
         </header>
 
-        <p>Life will feel it is always a great time to chat</p>
-
-        <ContactForm />
+        <p>
+          Life will feel it is always a great time to chat
+          <br />
+          so you can reach me out easily using any of following links
+        </p>
 
         <ul className="icons">
           {config.socialLinks.map(social => {
@@ -27,7 +28,7 @@ export default function Footer() {
         </ul>
 
         <ul className="copyright">
-          <li>&copy; Directive. All rights reserved.</li>
+          <li>&copy; Mohammad Sadegh Shad. All rights reserved.</li>
           <li>
             Design: <a href="http://html5up.net">HTML5 UP</a>
           </li>
